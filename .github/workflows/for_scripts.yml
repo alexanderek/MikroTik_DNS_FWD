@@ -18,6 +18,12 @@ jobs:
       - name: Checkout your repo
         uses: actions/checkout@v4
 
+      - name: Clean previous generated scripts
+        run: |
+          set -eu
+          git rm -r --ignore-unmatch -- for_scripts/*.rsc for_scripts/index.* || true
+          mkdir -p for_scripts
+
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
@@ -90,7 +96,7 @@ jobs:
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
                           if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                           fi
                       done
                   else
@@ -107,7 +113,7 @@ jobs:
                               type=$(echo "$entry" | cut -d':' -f1)
                               value=$(echo "$entry" | cut -d':' -f2-)
                               if [ "$type" = "suffix" ]; then
-                                  echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                  echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                               fi
                           done
                           part=$((part + 1))
@@ -140,7 +146,7 @@ jobs:
                               type=$(echo "$entry" | cut -d':' -f1)
                               value=$(echo "$entry" | cut -d':' -f2-)
                               if [ "$type" = "suffix" ]; then
-                                  echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                  echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:group:$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                               fi
                           done
                       else
@@ -157,7 +163,7 @@ jobs:
                                   type=$(echo "$entry" | cut -d':' -f1)
                                   value=$(echo "$entry" | cut -d':' -f2-)
                                   if [ "$type" = "suffix" ]; then
-                                      echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                      echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:group:$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                                   fi
                               done
                               part=$((part + 1))
@@ -212,7 +218,7 @@ jobs:
                       type=$(echo "$entry" | cut -d':' -f1)
                       value=$(echo "$entry" | cut -d':' -f2-)
                       if [ "$type" = "suffix" ]; then
-                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                       fi
                   done
               else
@@ -229,7 +235,7 @@ jobs:
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
                           if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                           fi
                       done
                       part=$((part + 1))
@@ -323,9 +329,9 @@ jobs:
                   type=${e%%:*}
                   value=${e#*:}
                   case "$type" in
-                    domain) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" ;;
-                    suffix) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" ;;
-                    regex)  echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" ;;
+                    domain) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$resource\" type=FWD name=\"$value\" }" ;;
+                    suffix) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$resource\" match-subdomain=yes type=FWD name=\"$value\" }" ;;
+                    regex)  echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$resource\" type=FWD regexp=\"$value\" }" ;;
                   esac
                 done
               } > "$output"
@@ -343,9 +349,9 @@ jobs:
                     type=${e%%:*}
                     value=${e#*:}
                     case "$type" in
-                      domain) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" ;;
-                      suffix) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" ;;
-                      regex)  echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" ;;
+                      domain) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$resource\" type=FWD name=\"$value\" }" ;;
+                      suffix) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$resource\" match-subdomain=yes type=FWD name=\"$value\" }" ;;
+                      regex)  echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"dnsfwd:auto:$resource\" type=FWD regexp=\"$value\" }" ;;
                     esac
                   done
                 } > "$output"
@@ -355,10 +361,36 @@ jobs:
             echo "Generated $entry_count entries → $resource"
           done < geosite_files.txt
 
+      - name: Validate outputs and write summary
+        run: |
+          set -eu
+          if ! find for_scripts -maxdepth 1 -name '*.rsc' -type f -print -quit | grep -q .; then
+            echo "No .rsc files generated in for_scripts; failing to avoid empty commit."
+            exit 1
+          fi
+
+          rsc_count=$(find for_scripts -maxdepth 1 -name '*.rsc' -type f | wc -l | tr -d ' ')
+          rules_count=$(
+            { find for_scripts -maxdepth 1 -name '*.rsc' -type f -print0 | xargs -0 grep -h '^:if ' || true; } | wc -l | tr -d ' '
+          )
+          top_10=$(find for_scripts -maxdepth 1 -name '*.rsc' -type f -print0 | xargs -0 du -h | sort -h | tail -10)
+
+          {
+            echo "### for_scripts generation summary"
+            echo
+            echo "- .rsc files: $rsc_count"
+            echo "- rules (:if): $rules_count"
+            echo
+            echo "Top-10 largest .rsc files:"
+            echo '```'
+            echo "$top_10"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add for_scripts/*.rsc
+          git add for_scripts
           git commit -m "Auto-update: iplist + ALL MetaCubeX geosite (local clone)" || exit 0
           git push
