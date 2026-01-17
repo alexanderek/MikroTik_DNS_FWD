@@ -1,6 +1,6 @@
 # Define global variables
-:global AddressList "example_list"
-:global ForwardTo "example_dns"
+:global AddressList "example_list_a"
+:global ForwardTo "example_dns_a"
 :global SyncMode "add"
 
 # List of resources corresponding to RSC files

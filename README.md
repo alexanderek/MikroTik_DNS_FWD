@@ -35,7 +35,7 @@ RouterOS **never generates domains**, it only downloads and applies them.
 
 All automatically managed rules use comments like:
 
-```
+```routeros
 dnsfwd:auto:<resource>
 ```
 
