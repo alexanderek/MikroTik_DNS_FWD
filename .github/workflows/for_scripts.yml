@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "10 0 * * *" # 00:10 UTC
   workflow_dispatch:
+concurrency:
+  group: for-scripts-main
+  cancel-in-progress: true
 permissions:
   contents: write
 env:
@@ -391,6 +394,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull --rebase origin main
           git add for_scripts
           git commit -m "Auto-update: iplist + ALL MetaCubeX geosite (local clone)" || exit 0
           git push
