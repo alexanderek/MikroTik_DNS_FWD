@@ -5,25 +5,15 @@
 
 # List of resources corresponding to RSC files
 :global resources {
-  "openai";
-  "google-gemini";
-  "claude";
-  "xai";
-  "notion";
-  "netflix";
-  "twitch";
-  "intel";
-  "canva";
-  "spotify";
-  "tidal";
-  "tiktok";
-  "atlassian";
-  "deepl";
-  "slack";
-  "ubiquiti";
-  "cisco";
-  "xbox";
-  "playstation"
+  "linkedin";
+  "youtube";
+  "meta";
+  "twitter";
+  "cloudflare";
+  "rutracker";
+  "torrent";
+  "discord";
+  "telegram"
 }
 
 # Base URL for RSC files
