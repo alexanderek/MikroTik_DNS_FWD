@@ -52,13 +52,18 @@
           :local ids [/ip dns static find where name=$name and address-list=$AddressList and type=FWD and forward-to=$ForwardTo]
           :if ([:len $ids] > 0) do={
             :foreach id in=$ids do={
-              :if ($DryRun = "true") do={
-                :log info ("WOULD ADOPT " . $name . " -> " . $tag)
+              :local comment [/ip dns static get $id comment]
+              :if ([:pick $comment 0 12] != "dnsfwd:auto:") do={
+                :if ($DryRun = "true") do={
+                  :log info ("WOULD ADOPT " . $name . " -> " . $tag)
+                } else={
+                  /ip dns static set $id comment=$tag
+                  :log info ("ADOPTED " . $name . " -> " . $tag)
+                }
+                :set adopted ($adopted + 1)
               } else={
-                /ip dns static set $id comment=$tag
-                :log info ("ADOPTED " . $name . " -> " . $tag)
+                :set skipped ($skipped + 1)
               }
-              :set adopted ($adopted + 1)
             }
           } else={
             :set skipped ($skipped + 1)
@@ -79,13 +84,18 @@
           :local ids [/ip dns static find where regexp=$regexp and address-list=$AddressList and type=FWD and forward-to=$ForwardTo]
           :if ([:len $ids] > 0) do={
             :foreach id in=$ids do={
-              :if ($DryRun = "true") do={
-                :log info ("WOULD ADOPT " . $regexp . " -> " . $tag)
+              :local comment [/ip dns static get $id comment]
+              :if ([:pick $comment 0 12] != "dnsfwd:auto:") do={
+                :if ($DryRun = "true") do={
+                  :log info ("WOULD ADOPT " . $regexp . " -> " . $tag)
+                } else={
+                  /ip dns static set $id comment=$tag
+                  :log info ("ADOPTED " . $regexp . " -> " . $tag)
+                }
+                :set adopted ($adopted + 1)
               } else={
-                /ip dns static set $id comment=$tag
-                :log info ("ADOPTED " . $regexp . " -> " . $tag)
+                :set skipped ($skipped + 1)
               }
-              :set adopted ($adopted + 1)
             }
           } else={
             :set skipped ($skipped + 1)
@@ -118,13 +128,18 @@
             :local ids [/ip dns static find where name=$name and address-list=$AddressList and type=FWD and forward-to=$ForwardTo]
             :if ([:len $ids] > 0) do={
               :foreach id in=$ids do={
-                :if ($DryRun = "true") do={
-                  :log info ("WOULD ADOPT " . $name . " -> " . $tag)
+                :local comment [/ip dns static get $id comment]
+                :if ([:pick $comment 0 12] != "dnsfwd:auto:") do={
+                  :if ($DryRun = "true") do={
+                    :log info ("WOULD ADOPT " . $name . " -> " . $tag)
+                  } else={
+                    /ip dns static set $id comment=$tag
+                    :log info ("ADOPTED " . $name . " -> " . $tag)
+                  }
+                  :set adopted ($adopted + 1)
                 } else={
-                  /ip dns static set $id comment=$tag
-                  :log info ("ADOPTED " . $name . " -> " . $tag)
+                  :set skipped ($skipped + 1)
                 }
-                :set adopted ($adopted + 1)
               }
             } else={
               :set skipped ($skipped + 1)
@@ -145,13 +160,18 @@
             :local ids [/ip dns static find where regexp=$regexp and address-list=$AddressList and type=FWD and forward-to=$ForwardTo]
             :if ([:len $ids] > 0) do={
               :foreach id in=$ids do={
-                :if ($DryRun = "true") do={
-                  :log info ("WOULD ADOPT " . $regexp . " -> " . $tag)
+                :local comment [/ip dns static get $id comment]
+                :if ([:pick $comment 0 12] != "dnsfwd:auto:") do={
+                  :if ($DryRun = "true") do={
+                    :log info ("WOULD ADOPT " . $regexp . " -> " . $tag)
+                  } else={
+                    /ip dns static set $id comment=$tag
+                    :log info ("ADOPTED " . $regexp . " -> " . $tag)
+                  }
+                  :set adopted ($adopted + 1)
                 } else={
-                  /ip dns static set $id comment=$tag
-                  :log info ("ADOPTED " . $regexp . " -> " . $tag)
+                  :set skipped ($skipped + 1)
                 }
-                :set adopted ($adopted + 1)
               }
             } else={
               :set skipped ($skipped + 1)
