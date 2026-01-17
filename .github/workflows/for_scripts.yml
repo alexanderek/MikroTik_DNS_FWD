@@ -390,6 +390,47 @@ jobs:
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Generate for_scripts index files
+        run: |
+          set -eu
+          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          mapfile -d '' files < <(find for_scripts -maxdepth 1 -name '*.rsc' -type f -print0 | sort -z)
+          count=${#files[@]}
+
+          {
+            echo "# for_scripts index"
+            echo
+            echo "Generated at (UTC): $timestamp"
+            echo
+            echo "Total files: $count"
+            echo
+            echo "Files:"
+            for file in "${files[@]}"; do
+              name=$(basename "$file")
+              echo "- [$name]($name)"
+            done
+          } > for_scripts/index.md
+
+          {
+            echo "{"
+            echo "  \"generated_at\": \"$timestamp\","
+            echo "  \"count\": $count,"
+            echo "  \"files\": ["
+            first=1
+            for file in "${files[@]}"; do
+              name=$(basename "$file")
+              bytes=$(stat -c %s "$file")
+              if [ $first -eq 0 ]; then
+                echo ","
+              fi
+              echo "    { \"name\": \"$name\", \"bytes\": $bytes }"
+              first=0
+            done
+            echo
+            echo "  ]"
+            echo "}"
+          } > for_scripts/index.json
+
       - name: Commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
