@@ -1,5 +1,0 @@
-:global AddressList
-:global ForwardTo
-/ip dns static
-:if ([:len [find name="crunchyroll.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dnsfwd:auto:crunchyroll" match-subdomain=yes type=FWD name="crunchyroll.com" }
-:if ([:len [find name="vrv.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dnsfwd:auto:crunchyroll" match-subdomain=yes type=FWD name="vrv.co" }
