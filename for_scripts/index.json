@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-30T02:51:06Z",
-  "count": 2992,
+  "generated_at": "2026-01-31T02:46:17Z",
+  "count": 2987,
   "files": [
     { "name": "10minutemail.rsc", "bytes": 437 }
 ,
@@ -76,9 +76,9 @@
 ,
     { "name": "adidas.rsc", "bytes": 5677 }
 ,
-    { "name": "adjust-ads.rsc", "bytes": 598 }
+    { "name": "adjust.rsc", "bytes": 586 }
 ,
-    { "name": "adjust-ads@ads.rsc", "bytes": 610 }
+    { "name": "adjust@ads.rsc", "bytes": 598 }
 ,
     { "name": "adobe-activation.rsc", "bytes": 26937 }
 ,
@@ -564,41 +564,41 @@
 ,
     { "name": "category-acg.rsc", "bytes": 1563 }
 ,
-    { "name": "category-ads-all@ads_part1.rsc", "bytes": 30779 }
+    { "name": "category-ads-all@ads_part1.rsc", "bytes": 30769 }
 ,
-    { "name": "category-ads-all@ads_part2.rsc", "bytes": 30729 }
+    { "name": "category-ads-all@ads_part2.rsc", "bytes": 30739 }
 ,
-    { "name": "category-ads-all@ads_part3.rsc", "bytes": 30781 }
+    { "name": "category-ads-all@ads_part3.rsc", "bytes": 30777 }
 ,
-    { "name": "category-ads-all@ads_part4.rsc", "bytes": 11551 }
+    { "name": "category-ads-all@ads_part4.rsc", "bytes": 11360 }
 ,
-    { "name": "category-ads-all_part1.rsc", "bytes": 30021 }
+    { "name": "category-ads-all_part1.rsc", "bytes": 30033 }
 ,
-    { "name": "category-ads-all_part2.rsc", "bytes": 30035 }
+    { "name": "category-ads-all_part2.rsc", "bytes": 30031 }
 ,
-    { "name": "category-ads-all_part3.rsc", "bytes": 30035 }
+    { "name": "category-ads-all_part3.rsc", "bytes": 30027 }
 ,
-    { "name": "category-ads-all_part4.rsc", "bytes": 29559 }
+    { "name": "category-ads-all_part4.rsc", "bytes": 29569 }
 ,
-    { "name": "category-ads-all_part5.rsc", "bytes": 1825 }
+    { "name": "category-ads-all_part5.rsc", "bytes": 2010 }
 ,
     { "name": "category-ads-ir.rsc", "bytes": 1369 }
 ,
-    { "name": "category-ads@ads_part1.rsc", "bytes": 30235 }
+    { "name": "category-ads@ads_part1.rsc", "bytes": 30249 }
 ,
-    { "name": "category-ads@ads_part2.rsc", "bytes": 30213 }
+    { "name": "category-ads@ads_part2.rsc", "bytes": 30227 }
 ,
-    { "name": "category-ads@ads_part3.rsc", "bytes": 30259 }
+    { "name": "category-ads@ads_part3.rsc", "bytes": 30273 }
 ,
-    { "name": "category-ads@ads_part4.rsc", "bytes": 6921 }
+    { "name": "category-ads@ads_part4.rsc", "bytes": 2613 }
 ,
-    { "name": "category-ads_part1.rsc", "bytes": 29477 }
+    { "name": "category-ads_part1.rsc", "bytes": 29525 }
 ,
     { "name": "category-ads_part2.rsc", "bytes": 29493 }
 ,
-    { "name": "category-ads_part3.rsc", "bytes": 29399 }
+    { "name": "category-ads_part3.rsc", "bytes": 29455 }
 ,
-    { "name": "category-ads_part4.rsc", "bytes": 26539 }
+    { "name": "category-ads_part4.rsc", "bytes": 22257 }
 ,
     { "name": "category-ai-!cn.rsc", "bytes": 19395 }
 ,
@@ -760,17 +760,17 @@
 ,
     { "name": "category-dev-cn.rsc", "bytes": 15757 }
 ,
-    { "name": "category-dev@ads.rsc", "bytes": 712 }
+    { "name": "category-dev@ads.rsc", "bytes": 911 }
 ,
     { "name": "category-dev@cn.rsc", "bytes": 647 }
 ,
     { "name": "category-dev_part1.rsc", "bytes": 28427 }
 ,
-    { "name": "category-dev_part2.rsc", "bytes": 28385 }
+    { "name": "category-dev_part2.rsc", "bytes": 28375 }
 ,
-    { "name": "category-dev_part3.rsc", "bytes": 28639 }
+    { "name": "category-dev_part3.rsc", "bytes": 28653 }
 ,
-    { "name": "category-dev_part4.rsc", "bytes": 13387 }
+    { "name": "category-dev_part4.rsc", "bytes": 13578 }
 ,
     { "name": "category-documents-cn.rsc", "bytes": 433 }
 ,
@@ -792,7 +792,7 @@
 ,
     { "name": "category-ecommerce_part5.rsc", "bytes": 18493 }
 ,
-    { "name": "category-education-cn.rsc", "bytes": 17849 }
+    { "name": "category-education-cn.rsc", "bytes": 18037 }
 ,
     { "name": "category-education-ir.rsc", "bytes": 1409 }
 ,
@@ -1230,9 +1230,9 @@
 ,
     { "name": "clearasil.rsc", "bytes": 237 }
 ,
-    { "name": "clearbit-ads.rsc", "bytes": 632 }
+    { "name": "clearbit.rsc", "bytes": 620 }
 ,
-    { "name": "clearbit-ads@ads.rsc", "bytes": 644 }
+    { "name": "clearbit@ads.rsc", "bytes": 632 }
 ,
     { "name": "clips4sale.rsc", "bytes": 616 }
 ,
@@ -3600,49 +3600,49 @@
 ,
     { "name": "geolocation-cn_part1.rsc", "bytes": 27767 }
 ,
-    { "name": "geolocation-cn_part10.rsc", "bytes": 28365 }
+    { "name": "geolocation-cn_part10.rsc", "bytes": 28375 }
 ,
-    { "name": "geolocation-cn_part11.rsc", "bytes": 28171 }
+    { "name": "geolocation-cn_part11.rsc", "bytes": 28167 }
 ,
-    { "name": "geolocation-cn_part12.rsc", "bytes": 28061 }
+    { "name": "geolocation-cn_part12.rsc", "bytes": 28059 }
 ,
-    { "name": "geolocation-cn_part13.rsc", "bytes": 28355 }
+    { "name": "geolocation-cn_part13.rsc", "bytes": 28361 }
 ,
-    { "name": "geolocation-cn_part14.rsc", "bytes": 28199 }
+    { "name": "geolocation-cn_part14.rsc", "bytes": 28195 }
 ,
     { "name": "geolocation-cn_part15.rsc", "bytes": 28205 }
 ,
-    { "name": "geolocation-cn_part16.rsc", "bytes": 28067 }
+    { "name": "geolocation-cn_part16.rsc", "bytes": 28075 }
 ,
-    { "name": "geolocation-cn_part17.rsc", "bytes": 28471 }
+    { "name": "geolocation-cn_part17.rsc", "bytes": 28455 }
 ,
-    { "name": "geolocation-cn_part18.rsc", "bytes": 28281 }
+    { "name": "geolocation-cn_part18.rsc", "bytes": 28311 }
 ,
-    { "name": "geolocation-cn_part19.rsc", "bytes": 28291 }
+    { "name": "geolocation-cn_part19.rsc", "bytes": 28255 }
 ,
     { "name": "geolocation-cn_part2.rsc", "bytes": 27745 }
 ,
-    { "name": "geolocation-cn_part20.rsc", "bytes": 28151 }
+    { "name": "geolocation-cn_part20.rsc", "bytes": 28155 }
 ,
-    { "name": "geolocation-cn_part21.rsc", "bytes": 28323 }
+    { "name": "geolocation-cn_part21.rsc", "bytes": 28359 }
 ,
-    { "name": "geolocation-cn_part22.rsc", "bytes": 28075 }
+    { "name": "geolocation-cn_part22.rsc", "bytes": 28055 }
 ,
-    { "name": "geolocation-cn_part23.rsc", "bytes": 24232 }
+    { "name": "geolocation-cn_part23.rsc", "bytes": 22535 }
 ,
     { "name": "geolocation-cn_part3.rsc", "bytes": 28375 }
 ,
     { "name": "geolocation-cn_part4.rsc", "bytes": 28277 }
 ,
-    { "name": "geolocation-cn_part5.rsc", "bytes": 28563 }
+    { "name": "geolocation-cn_part5.rsc", "bytes": 28565 }
 ,
-    { "name": "geolocation-cn_part6.rsc", "bytes": 28043 }
+    { "name": "geolocation-cn_part6.rsc", "bytes": 28049 }
 ,
-    { "name": "geolocation-cn_part7.rsc", "bytes": 28189 }
+    { "name": "geolocation-cn_part7.rsc", "bytes": 28197 }
 ,
     { "name": "geolocation-cn_part8.rsc", "bytes": 28209 }
 ,
-    { "name": "geolocation-cn_part9.rsc", "bytes": 28141 }
+    { "name": "geolocation-cn_part9.rsc", "bytes": 28125 }
 ,
     { "name": "gettyimages.rsc", "bytes": 1011 }
 ,
@@ -3702,9 +3702,9 @@
 ,
     { "name": "gfw_part33.rsc", "bytes": 27041 }
 ,
-    { "name": "gfw_part34.rsc", "bytes": 26795 }
+    { "name": "gfw_part34.rsc", "bytes": 26779 }
 ,
-    { "name": "gfw_part35.rsc", "bytes": 19655 }
+    { "name": "gfw_part35.rsc", "bytes": 19839 }
 ,
     { "name": "gfw_part4.rsc", "bytes": 27079 }
 ,
@@ -4694,9 +4694,9 @@
 ,
     { "name": "oculus.rsc", "bytes": 3204 }
 ,
-    { "name": "ogury-ads.rsc", "bytes": 587 }
+    { "name": "ogury.rsc", "bytes": 575 }
 ,
-    { "name": "ogury-ads@ads.rsc", "bytes": 599 }
+    { "name": "ogury@ads.rsc", "bytes": 587 }
 ,
     { "name": "ok.rsc", "bytes": 554 }
 ,
@@ -4752,9 +4752,9 @@
 ,
     { "name": "openwrt.rsc", "bytes": 423 }
 ,
-    { "name": "openx-ads.rsc", "bytes": 1003 }
+    { "name": "openx.rsc", "bytes": 983 }
 ,
-    { "name": "openx-ads@ads.rsc", "bytes": 1023 }
+    { "name": "openx@ads.rsc", "bytes": 1003 }
 ,
     { "name": "oppo.rsc", "bytes": 5789 }
 ,
@@ -4910,13 +4910,7 @@
 ,
     { "name": "pubg.rsc", "bytes": 773 }
 ,
-    { "name": "pubmatic-ads.rsc", "bytes": 248 }
-,
-    { "name": "pubmatic-ads@ads.rsc", "bytes": 252 }
-,
-    { "name": "pubmatic.rsc", "bytes": 614 }
-,
-    { "name": "pubmatic@ads.rsc", "bytes": 248 }
+    { "name": "pubmatic.rsc", "bytes": 423 }
 ,
     { "name": "pugpig.rsc", "bytes": 604 }
 ,
@@ -5102,9 +5096,9 @@
 ,
     { "name": "sectigo@cn.rsc", "bytes": 694 }
 ,
-    { "name": "segment-ads.rsc", "bytes": 799 }
+    { "name": "segment.rsc", "bytes": 783 }
 ,
-    { "name": "segment-ads@ads.rsc", "bytes": 815 }
+    { "name": "segment@ads.rsc", "bytes": 799 }
 ,
     { "name": "segmentfault.rsc", "bytes": 429 }
 ,
@@ -5310,9 +5304,9 @@
 ,
     { "name": "supercell.rsc", "bytes": 4047 }
 ,
-    { "name": "supersonic-ads.rsc", "bytes": 851 }
+    { "name": "supersonic.rsc", "bytes": 835 }
 ,
-    { "name": "supersonic-ads@ads.rsc", "bytes": 867 }
+    { "name": "supersonic@ads.rsc", "bytes": 851 }
 ,
     { "name": "surflite.rsc", "bytes": 417 }
 ,
@@ -5598,13 +5592,9 @@
 ,
     { "name": "unionpay.rsc", "bytes": 1545 }
 ,
-    { "name": "unity-ads.rsc", "bytes": 253 }
+    { "name": "unity.rsc", "bytes": 789 }
 ,
-    { "name": "unity-ads@ads.rsc", "bytes": 257 }
-,
-    { "name": "unity.rsc", "bytes": 601 }
-,
-    { "name": "unity@ads.rsc", "bytes": 253 }
+    { "name": "unity@ads.rsc", "bytes": 445 }
 ,
     { "name": "upai.rsc", "bytes": 1093 }
 ,

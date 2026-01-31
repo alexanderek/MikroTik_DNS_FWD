@@ -1,4 +1,0 @@
-:global AddressList
-:global ForwardTo
-/ip dns static
-:if ([:len [find name="unityads.unity3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dnsfwd:auto:unity-ads" match-subdomain=yes type=FWD name="unityads.unity3d.com" }
