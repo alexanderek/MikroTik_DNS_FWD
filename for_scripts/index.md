@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-04T02:51:55Z
+Generated at (UTC): 2026-02-05T02:54:21Z
 
-Total files: 2990
+Total files: 2991
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -1873,6 +1873,7 @@ Files:
 - [gitee.rsc](gitee.rsc)
 - [github-ads.rsc](github-ads.rsc)
 - [github-ads@ads.rsc](github-ads@ads.rsc)
+- [github-copilot.rsc](github-copilot.rsc)
 - [github.rsc](github.rsc)
 - [github1s.rsc](github1s.rsc)
 - [github@ads.rsc](github@ads.rsc)
