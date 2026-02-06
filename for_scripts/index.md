@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-05T02:54:21Z
+Generated at (UTC): 2026-02-06T02:53:41Z
 
-Total files: 2991
+Total files: 2993
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -1921,6 +1921,7 @@ Files:
 - [gree.rsc](gree.rsc)
 - [grok.rsc](grok.rsc)
 - [groq.rsc](groq.rsc)
+- [growingio.rsc](growingio.rsc)
 - [gucci.rsc](gucci.rsc)
 - [gulagu.rsc](gulagu.rsc)
 - [guo.rsc](guo.rsc)
@@ -2490,6 +2491,7 @@ Files:
 - [quora.rsc](quora.rsc)
 - [qwant.rsc](qwant.rsc)
 - [qweather.rsc](qweather.rsc)
+- [radiko.rsc](radiko.rsc)
 - [radiosvoboda.rsc](radiosvoboda.rsc)
 - [rakuten.rsc](rakuten.rsc)
 - [ralphlauren.rsc](ralphlauren.rsc)
