@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-08T03:33:45Z
+Generated at (UTC): 2026-02-09T03:19:48Z
 
-Total files: 2998
+Total files: 3001
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -1645,6 +1645,7 @@ Files:
 - [futu.rsc](futu.rsc)
 - [futu@cn.rsc](futu@cn.rsc)
 - [fzdm.rsc](fzdm.rsc)
+- [gaijin.rsc](gaijin.rsc)
 - [gamersky.rsc](gamersky.rsc)
 - [gamersky@ads.rsc](gamersky@ads.rsc)
 - [games.rsc](games.rsc)
@@ -2681,6 +2682,7 @@ Files:
 - [taboola.rsc](taboola.rsc)
 - [taikang.rsc](taikang.rsc)
 - [tailscale.rsc](tailscale.rsc)
+- [take-two.rsc](take-two.rsc)
 - [talkatone.rsc](talkatone.rsc)
 - [taomee.rsc](taomee.rsc)
 - [taptap.rsc](taptap.rsc)
@@ -3003,3 +3005,4 @@ Files:
 - [zuoyebang-ads@ads.rsc](zuoyebang-ads@ads.rsc)
 - [zuoyebang.rsc](zuoyebang.rsc)
 - [zuoyebang@ads.rsc](zuoyebang@ads.rsc)
+- [zynga.rsc](zynga.rsc)
