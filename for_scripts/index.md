@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-09T03:19:48Z
+Generated at (UTC): 2026-02-10T03:27:38Z
 
-Total files: 3001
+Total files: 2996
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -197,6 +197,7 @@ Files:
 - [beats_part3.rsc](beats_part3.rsc)
 - [beats_part4.rsc](beats_part4.rsc)
 - [beats_part5.rsc](beats_part5.rsc)
+- [beeble.rsc](beeble.rsc)
 - [beeg.rsc](beeg.rsc)
 - [beisen.rsc](beisen.rsc)
 - [bellingcat.rsc](bellingcat.rsc)
@@ -1465,6 +1466,7 @@ Files:
 - [dart.rsc](dart.rsc)
 - [dazn.rsc](dazn.rsc)
 - [dcard.rsc](dcard.rsc)
+- [ddmaicai.rsc](ddmaicai.rsc)
 - [debian.rsc](debian.rsc)
 - [decryptipastore.rsc](decryptipastore.rsc)
 - [dedao.rsc](dedao.rsc)
@@ -1710,9 +1712,6 @@ Files:
 - [geolocation-!cn_part144.rsc](geolocation-!cn_part144.rsc)
 - [geolocation-!cn_part145.rsc](geolocation-!cn_part145.rsc)
 - [geolocation-!cn_part146.rsc](geolocation-!cn_part146.rsc)
-- [geolocation-!cn_part147.rsc](geolocation-!cn_part147.rsc)
-- [geolocation-!cn_part148.rsc](geolocation-!cn_part148.rsc)
-- [geolocation-!cn_part149.rsc](geolocation-!cn_part149.rsc)
 - [geolocation-!cn_part15.rsc](geolocation-!cn_part15.rsc)
 - [geolocation-!cn_part16.rsc](geolocation-!cn_part16.rsc)
 - [geolocation-!cn_part17.rsc](geolocation-!cn_part17.rsc)
@@ -1857,10 +1856,6 @@ Files:
 - [gfw_part3.rsc](gfw_part3.rsc)
 - [gfw_part30.rsc](gfw_part30.rsc)
 - [gfw_part31.rsc](gfw_part31.rsc)
-- [gfw_part32.rsc](gfw_part32.rsc)
-- [gfw_part33.rsc](gfw_part33.rsc)
-- [gfw_part34.rsc](gfw_part34.rsc)
-- [gfw_part35.rsc](gfw_part35.rsc)
 - [gfw_part4.rsc](gfw_part4.rsc)
 - [gfw_part5.rsc](gfw_part5.rsc)
 - [gfw_part6.rsc](gfw_part6.rsc)
