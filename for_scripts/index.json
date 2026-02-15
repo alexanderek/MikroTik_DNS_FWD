@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T02:51:27Z",
+  "generated_at": "2026-02-15T03:21:25Z",
   "count": 2938,
   "files": [
     { "name": "10minutemail.rsc", "bytes": 437 }
@@ -644,7 +644,7 @@
 ,
     { "name": "category-collaborate-cn.rsc", "bytes": 3955 }
 ,
-    { "name": "category-communication.rsc", "bytes": 25774 }
+    { "name": "category-communication.rsc", "bytes": 25961 }
 ,
     { "name": "category-communication@ads.rsc", "bytes": 479 }
 ,
@@ -3340,59 +3340,59 @@
 ,
     { "name": "geolocation-!cn_part116.rsc", "bytes": 29581 }
 ,
-    { "name": "geolocation-!cn_part117.rsc", "bytes": 29047 }
+    { "name": "geolocation-!cn_part117.rsc", "bytes": 29019 }
 ,
-    { "name": "geolocation-!cn_part118.rsc", "bytes": 29207 }
+    { "name": "geolocation-!cn_part118.rsc", "bytes": 29225 }
 ,
-    { "name": "geolocation-!cn_part119.rsc", "bytes": 28725 }
+    { "name": "geolocation-!cn_part119.rsc", "bytes": 28719 }
 ,
     { "name": "geolocation-!cn_part12.rsc", "bytes": 29105 }
 ,
     { "name": "geolocation-!cn_part120.rsc", "bytes": 28493 }
 ,
-    { "name": "geolocation-!cn_part121.rsc", "bytes": 28869 }
+    { "name": "geolocation-!cn_part121.rsc", "bytes": 28883 }
 ,
-    { "name": "geolocation-!cn_part122.rsc", "bytes": 28739 }
+    { "name": "geolocation-!cn_part122.rsc", "bytes": 28735 }
 ,
-    { "name": "geolocation-!cn_part123.rsc", "bytes": 29245 }
+    { "name": "geolocation-!cn_part123.rsc", "bytes": 29231 }
 ,
-    { "name": "geolocation-!cn_part124.rsc", "bytes": 28983 }
+    { "name": "geolocation-!cn_part124.rsc", "bytes": 28969 }
 ,
-    { "name": "geolocation-!cn_part125.rsc", "bytes": 28703 }
+    { "name": "geolocation-!cn_part125.rsc", "bytes": 28731 }
 ,
-    { "name": "geolocation-!cn_part126.rsc", "bytes": 28893 }
+    { "name": "geolocation-!cn_part126.rsc", "bytes": 28879 }
 ,
-    { "name": "geolocation-!cn_part127.rsc", "bytes": 29301 }
+    { "name": "geolocation-!cn_part127.rsc", "bytes": 29299 }
 ,
-    { "name": "geolocation-!cn_part128.rsc", "bytes": 28779 }
+    { "name": "geolocation-!cn_part128.rsc", "bytes": 28795 }
 ,
     { "name": "geolocation-!cn_part129.rsc", "bytes": 28535 }
 ,
     { "name": "geolocation-!cn_part13.rsc", "bytes": 30239 }
 ,
-    { "name": "geolocation-!cn_part130.rsc", "bytes": 29521 }
+    { "name": "geolocation-!cn_part130.rsc", "bytes": 29507 }
 ,
-    { "name": "geolocation-!cn_part131.rsc", "bytes": 28463 }
+    { "name": "geolocation-!cn_part131.rsc", "bytes": 28483 }
 ,
-    { "name": "geolocation-!cn_part132.rsc", "bytes": 28673 }
+    { "name": "geolocation-!cn_part132.rsc", "bytes": 28643 }
 ,
-    { "name": "geolocation-!cn_part133.rsc", "bytes": 28863 }
+    { "name": "geolocation-!cn_part133.rsc", "bytes": 28867 }
 ,
-    { "name": "geolocation-!cn_part134.rsc", "bytes": 28581 }
+    { "name": "geolocation-!cn_part134.rsc", "bytes": 28597 }
 ,
-    { "name": "geolocation-!cn_part135.rsc", "bytes": 28497 }
+    { "name": "geolocation-!cn_part135.rsc", "bytes": 28523 }
 ,
-    { "name": "geolocation-!cn_part136.rsc", "bytes": 29845 }
+    { "name": "geolocation-!cn_part136.rsc", "bytes": 29831 }
 ,
-    { "name": "geolocation-!cn_part137.rsc", "bytes": 29969 }
+    { "name": "geolocation-!cn_part137.rsc", "bytes": 29921 }
 ,
-    { "name": "geolocation-!cn_part138.rsc", "bytes": 29115 }
+    { "name": "geolocation-!cn_part138.rsc", "bytes": 29103 }
 ,
-    { "name": "geolocation-!cn_part139.rsc", "bytes": 30703 }
+    { "name": "geolocation-!cn_part139.rsc", "bytes": 30591 }
 ,
     { "name": "geolocation-!cn_part14.rsc", "bytes": 29139 }
 ,
-    { "name": "geolocation-!cn_part140.rsc", "bytes": 25487 }
+    { "name": "geolocation-!cn_part140.rsc", "bytes": 26029 }
 ,
     { "name": "geolocation-!cn_part15.rsc", "bytes": 29087 }
 ,
@@ -3660,13 +3660,13 @@
 ,
     { "name": "gfw_part21.rsc", "bytes": 26775 }
 ,
-    { "name": "gfw_part22.rsc", "bytes": 26879 }
+    { "name": "gfw_part22.rsc", "bytes": 26885 }
 ,
-    { "name": "gfw_part23.rsc", "bytes": 26977 }
+    { "name": "gfw_part23.rsc", "bytes": 26975 }
 ,
-    { "name": "gfw_part24.rsc", "bytes": 26731 }
+    { "name": "gfw_part24.rsc", "bytes": 26729 }
 ,
-    { "name": "gfw_part25.rsc", "bytes": 1275 }
+    { "name": "gfw_part25.rsc", "bytes": 1453 }
 ,
     { "name": "gfw_part3.rsc", "bytes": 27037 }
 ,
@@ -5284,7 +5284,7 @@
 ,
     { "name": "ted.rsc", "bytes": 395 }
 ,
-    { "name": "telegram.rsc", "bytes": 3138 }
+    { "name": "telegram.rsc", "bytes": 3311 }
 ,
     { "name": "telekom.rsc", "bytes": 233 }
 ,
