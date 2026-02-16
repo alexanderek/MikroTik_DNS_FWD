@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-15T03:21:25Z
+Generated at (UTC): 2026-02-16T03:18:13Z
 
-Total files: 2938
+Total files: 2940
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -11,6 +11,7 @@ Files:
 - [17zuoye.rsc](17zuoye.rsc)
 - [18comic.rsc](18comic.rsc)
 - [2ch.rsc](2ch.rsc)
+- [2gis.rsc](2gis.rsc)
 - [2kgames.rsc](2kgames.rsc)
 - [36kr.rsc](36kr.rsc)
 - [4399.rsc](4399.rsc)
@@ -56,6 +57,7 @@ Files:
 - [agilebits.rsc](agilebits.rsc)
 - [agora.rsc](agora.rsc)
 - [aiqicha.rsc](aiqicha.rsc)
+- [airbnb.rsc](airbnb.rsc)
 - [airchina.rsc](airchina.rsc)
 - [airwick.rsc](airwick.rsc)
 - [aisiku.rsc](aisiku.rsc)
