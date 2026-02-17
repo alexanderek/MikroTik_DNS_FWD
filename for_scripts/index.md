@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-16T03:18:13Z
+Generated at (UTC): 2026-02-17T03:12:51Z
 
-Total files: 2940
+Total files: 2939
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -1839,7 +1839,6 @@ Files:
 - [gfw_part22.rsc](gfw_part22.rsc)
 - [gfw_part23.rsc](gfw_part23.rsc)
 - [gfw_part24.rsc](gfw_part24.rsc)
-- [gfw_part25.rsc](gfw_part25.rsc)
 - [gfw_part3.rsc](gfw_part3.rsc)
 - [gfw_part4.rsc](gfw_part4.rsc)
 - [gfw_part5.rsc](gfw_part5.rsc)
