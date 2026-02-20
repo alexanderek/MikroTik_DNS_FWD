@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-19T03:14:50Z
+Generated at (UTC): 2026-02-20T02:54:16Z
 
-Total files: 2944
+Total files: 2948
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -317,6 +317,7 @@ Files:
 - [category-bank-ir.rsc](category-bank-ir.rsc)
 - [category-bank-jp.rsc](category-bank-jp.rsc)
 - [category-bank-mm.rsc](category-bank-mm.rsc)
+- [category-bank-ru.rsc](category-bank-ru.rsc)
 - [category-blog-cn.rsc](category-blog-cn.rsc)
 - [category-bourse-ir.rsc](category-bourse-ir.rsc)
 - [category-browser-!cn.rsc](category-browser-!cn.rsc)
@@ -582,6 +583,7 @@ Files:
 - [category-tech-media@cn.rsc](category-tech-media@cn.rsc)
 - [category-tm.rsc](category-tm.rsc)
 - [category-travel-ir.rsc](category-travel-ir.rsc)
+- [category-travel-ru.rsc](category-travel-ru.rsc)
 - [category-voip.rsc](category-voip.rsc)
 - [category-vpnservices.rsc](category-vpnservices.rsc)
 - [category-web-archive.rsc](category-web-archive.rsc)
@@ -1705,6 +1707,7 @@ Files:
 - [geolocation-!cn_part139.rsc](geolocation-!cn_part139.rsc)
 - [geolocation-!cn_part14.rsc](geolocation-!cn_part14.rsc)
 - [geolocation-!cn_part140.rsc](geolocation-!cn_part140.rsc)
+- [geolocation-!cn_part141.rsc](geolocation-!cn_part141.rsc)
 - [geolocation-!cn_part15.rsc](geolocation-!cn_part15.rsc)
 - [geolocation-!cn_part16.rsc](geolocation-!cn_part16.rsc)
 - [geolocation-!cn_part17.rsc](geolocation-!cn_part17.rsc)
@@ -2082,6 +2085,7 @@ Files:
 - [kingsoft.rsc](kingsoft.rsc)
 - [kino.rsc](kino.rsc)
 - [kinobase.rsc](kinobase.rsc)
+- [kinopoisk.rsc](kinopoisk.rsc)
 - [kinopub.rsc](kinopub.rsc)
 - [kinovod.rsc](kinovod.rsc)
 - [kinozal.rsc](kinozal.rsc)
