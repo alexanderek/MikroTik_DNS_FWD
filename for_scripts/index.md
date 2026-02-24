@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-02-23T03:18:19Z
+Generated at (UTC): 2026-02-24T03:13:24Z
 
-Total files: 2948
+Total files: 2949
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -2079,6 +2079,7 @@ Files:
 - [kernel.rsc](kernel.rsc)
 - [keybase.rsc](keybase.rsc)
 - [khanacademy.rsc](khanacademy.rsc)
+- [kilo.rsc](kilo.rsc)
 - [kindle.rsc](kindle.rsc)
 - [kindle4rss.rsc](kindle4rss.rsc)
 - [kingkonglive.rsc](kingkonglive.rsc)
