@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-03T03:13:06Z
+Generated at (UTC): 2026-03-04T02:49:51Z
 
-Total files: 2956
+Total files: 2958
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -584,6 +584,7 @@ Files:
 - [category-tm.rsc](category-tm.rsc)
 - [category-travel-ir.rsc](category-travel-ir.rsc)
 - [category-travel-ru.rsc](category-travel-ru.rsc)
+- [category-urlshortner.rsc](category-urlshortner.rsc)
 - [category-voip.rsc](category-voip.rsc)
 - [category-vpnservices.rsc](category-vpnservices.rsc)
 - [category-web-archive.rsc](category-web-archive.rsc)
@@ -1999,6 +2000,7 @@ Files:
 - [ihuman.rsc](ihuman.rsc)
 - [iina.rsc](iina.rsc)
 - [ikea.rsc](ikea.rsc)
+- [illgames.rsc](illgames.rsc)
 - [illusion-nonofficial.rsc](illusion-nonofficial.rsc)
 - [illusion.rsc](illusion.rsc)
 - [imagebam.rsc](imagebam.rsc)
