@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-05T02:52:28Z
+Generated at (UTC): 2026-03-06T02:50:24Z
 
-Total files: 2958
+Total files: 2959
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -2414,6 +2414,7 @@ Files:
 - [playboy.rsc](playboy.rsc)
 - [playcover.rsc](playcover.rsc)
 - [playstation.rsc](playstation.rsc)
+- [plex.rsc](plex.rsc)
 - [plutotv.rsc](plutotv.rsc)
 - [pocketcasts.rsc](pocketcasts.rsc)
 - [poe.rsc](poe.rsc)
