@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-08T03:12:01Z
+Generated at (UTC): 2026-03-09T03:14:41Z
 
-Total files: 2959
+Total files: 2950
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -1519,8 +1519,6 @@ Files:
 - [dmm.rsc](dmm.rsc)
 - [dmm@ads.rsc](dmm@ads.rsc)
 - [dnspod.rsc](dnspod.rsc)
-- [doc88.rsc](doc88.rsc)
-- [docin.rsc](docin.rsc)
 - [docker.rsc](docker.rsc)
 - [doi.rsc](doi.rsc)
 - [dola.rsc](dola.rsc)
@@ -2100,7 +2098,6 @@ Files:
 - [kinozal.rsc](kinozal.rsc)
 - [kkbox.rsc](kkbox.rsc)
 - [kktv.rsc](kktv.rsc)
-- [knovel.rsc](knovel.rsc)
 - [kodi.rsc](kodi.rsc)
 - [kodik.rsc](kodik.rsc)
 - [konachan.rsc](konachan.rsc)
@@ -2312,7 +2309,6 @@ Files:
 - [nikkei.rsc](nikkei.rsc)
 - [nintendo.rsc](nintendo.rsc)
 - [nist.rsc](nist.rsc)
-- [nixos.rsc](nixos.rsc)
 - [nnmclub.rsc](nnmclub.rsc)
 - [nodejs.rsc](nodejs.rsc)
 - [nodeseek.rsc](nodeseek.rsc)
@@ -2370,7 +2366,6 @@ Files:
 - [organicmaps.rsc](organicmaps.rsc)
 - [origin.rsc](origin.rsc)
 - [oschina.rsc](oschina.rsc)
-- [osdn.rsc](osdn.rsc)
 - [osu.rsc](osu.rsc)
 - [oup.rsc](oup.rsc)
 - [ovd.rsc](ovd.rsc)
@@ -2444,7 +2439,6 @@ Files:
 - [pubmatic.rsc](pubmatic.rsc)
 - [pugpig.rsc](pugpig.rsc)
 - [purikonejp.rsc](purikonejp.rsc)
-- [python-community.rsc](python-community.rsc)
 - [python.rsc](python.rsc)
 - [qcc.rsc](qcc.rsc)
 - [qcloud@!cn.rsc](qcloud@!cn.rsc)
@@ -2489,7 +2483,6 @@ Files:
 - [redotpay.rsc](redotpay.rsc)
 - [redtube.rsc](redtube.rsc)
 - [refactoring.rsc](refactoring.rsc)
-- [remirepo.rsc](remirepo.rsc)
 - [renren.rsc](renren.rsc)
 - [reurl.rsc](reurl.rsc)
 - [reuters.rsc](reuters.rsc)
@@ -2728,7 +2721,6 @@ Files:
 - [tongcheng.rsc](tongcheng.rsc)
 - [tongfang.rsc](tongfang.rsc)
 - [tools.rsc](tools.rsc)
-- [topcoder.rsc](topcoder.rsc)
 - [tor.rsc](tor.rsc)
 - [torproject.rsc](torproject.rsc)
 - [torrent.rsc](torrent.rsc)
@@ -2798,7 +2790,6 @@ Files:
 - [viber.rsc](viber.rsc)
 - [video.rsc](video.rsc)
 - [vilavpn.rsc](vilavpn.rsc)
-- [vim.rsc](vim.rsc)
 - [vimeo.rsc](vimeo.rsc)
 - [visa.rsc](visa.rsc)
 - [visualarts.rsc](visualarts.rsc)
