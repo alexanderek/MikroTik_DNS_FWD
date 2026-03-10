@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-09T03:14:41Z
+Generated at (UTC): 2026-03-10T02:49:22Z
 
-Total files: 2950
+Total files: 2958
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -468,6 +468,7 @@ Files:
 - [category-httpdns-cn@ads.rsc](category-httpdns-cn@ads.rsc)
 - [category-insurance-ir.rsc](category-insurance-ir.rsc)
 - [category-ip-geo-detect.rsc](category-ip-geo-detect.rsc)
+- [category-ip-geo-detect@cn.rsc](category-ip-geo-detect@cn.rsc)
 - [category-ipfs.rsc](category-ipfs.rsc)
 - [category-ir_part1.rsc](category-ir_part1.rsc)
 - [category-ir_part2.rsc](category-ir_part2.rsc)
@@ -1396,7 +1397,14 @@ Files:
 - [cn_part775.rsc](cn_part775.rsc)
 - [cn_part776.rsc](cn_part776.rsc)
 - [cn_part777.rsc](cn_part777.rsc)
+- [cn_part778.rsc](cn_part778.rsc)
+- [cn_part779.rsc](cn_part779.rsc)
 - [cn_part78.rsc](cn_part78.rsc)
+- [cn_part780.rsc](cn_part780.rsc)
+- [cn_part781.rsc](cn_part781.rsc)
+- [cn_part782.rsc](cn_part782.rsc)
+- [cn_part783.rsc](cn_part783.rsc)
+- [cn_part784.rsc](cn_part784.rsc)
 - [cn_part79.rsc](cn_part79.rsc)
 - [cn_part8.rsc](cn_part8.rsc)
 - [cn_part80.rsc](cn_part80.rsc)
