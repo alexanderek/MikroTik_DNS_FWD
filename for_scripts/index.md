@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-10T02:49:22Z
+Generated at (UTC): 2026-03-11T02:49:01Z
 
-Total files: 2958
+Total files: 2959
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -2440,6 +2440,7 @@ Files:
 - [prostovpn.rsc](prostovpn.rsc)
 - [proton.rsc](proton.rsc)
 - [protonmail.rsc](protonmail.rsc)
+- [proxy6.rsc](proxy6.rsc)
 - [proxyline.rsc](proxyline.rsc)
 - [pstorage.rsc](pstorage.rsc)
 - [ptt.rsc](ptt.rsc)
