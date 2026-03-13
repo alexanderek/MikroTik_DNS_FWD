@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-12T02:54:22Z
+Generated at (UTC): 2026-03-13T02:52:03Z
 
-Total files: 2959
+Total files: 2960
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -2531,6 +2531,7 @@ Files:
 - [sciencedirect.rsc](sciencedirect.rsc)
 - [scmp.rsc](scmp.rsc)
 - [scp.rsc](scp.rsc)
+- [seasonvar.rsc](seasonvar.rsc)
 - [seasun.rsc](seasun.rsc)
 - [secom.rsc](secom.rsc)
 - [sectigo.rsc](sectigo.rsc)
