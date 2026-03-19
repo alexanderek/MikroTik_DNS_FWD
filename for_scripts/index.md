@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-18T03:18:50Z
+Generated at (UTC): 2026-03-19T03:20:25Z
 
-Total files: 2960
+Total files: 2961
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -2713,6 +2713,7 @@ Files:
 - [tiktok.rsc](tiktok.rsc)
 - [tiktok@!cn.rsc](tiktok@!cn.rsc)
 - [tiktok@ads.rsc](tiktok@ads.rsc)
+- [tilda.rsc](tilda.rsc)
 - [tinyurl.rsc](tinyurl.rsc)
 - [tld-!cn_part1.rsc](tld-!cn_part1.rsc)
 - [tld-!cn_part2.rsc](tld-!cn_part2.rsc)
