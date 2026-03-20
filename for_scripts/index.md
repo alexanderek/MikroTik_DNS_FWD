@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-19T03:20:25Z
+Generated at (UTC): 2026-03-20T02:53:19Z
 
-Total files: 2961
+Total files: 2962
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -1938,6 +1938,7 @@ Files:
 - [hdrezka.rsc](hdrezka.rsc)
 - [hentaichan.rsc](hentaichan.rsc)
 - [hentaichen.rsc](hentaichen.rsc)
+- [hentailib.rsc](hentailib.rsc)
 - [hentaivn.rsc](hentaivn.rsc)
 - [herogame.rsc](herogame.rsc)
 - [heroku.rsc](heroku.rsc)
