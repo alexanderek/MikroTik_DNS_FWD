@@ -1,8 +1,8 @@
 # for_scripts index
 
-Generated at (UTC): 2026-03-20T02:53:19Z
+Generated at (UTC): 2026-03-21T02:46:52Z
 
-Total files: 2962
+Total files: 2963
 
 Files:
 - [10minutemail.rsc](10minutemail.rsc)
@@ -276,6 +276,7 @@ Files:
 - [canon.rsc](canon.rsc)
 - [canonical.rsc](canonical.rsc)
 - [canva.rsc](canva.rsc)
+- [capcut.rsc](capcut.rsc)
 - [capitalonline.rsc](capitalonline.rsc)
 - [casimages.rsc](casimages.rsc)
 - [casino.rsc](casino.rsc)
